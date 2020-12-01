@@ -1,0 +1,35 @@
+{
+  "host": "localhost",
+  "publicHost": "http://localhost:4200/",
+  "secure": false,
+  "port": 3030,
+  "public": "./public/",
+  "uploadLimit": 5000000,
+  "authentication": {
+    "secret": "U2V5c3NpbnNCcmlkZ2UzOFMzY3ImdA=="
+  },
+  "email": {
+    "enabled": false,
+    "support": "gimenes.magalie@gmail.com"
+  },
+  "logger": {
+    "console": {
+      "enabled": true,
+      "level": "info"
+    },
+    "file": {
+      "enabled": true,
+      "level": "info",
+      "dirname": "logs",
+      "maxFiles": 15,
+      "maxSize": 5242880
+    },
+    "graylog": {
+      "enabled": false,
+      "level": "error",
+      "name": "SeyssinsBridge",
+      "host": "",
+      "port": 0
+    }
+  }
+}

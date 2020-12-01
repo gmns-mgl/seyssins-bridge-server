@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="DROPBOX_TOKEN" value="MI9pFHWsSEAAAAAAAAAADml269pOOlpgACGR4NS6uUIocR5uEMS57fjMvCl6G1aR" />
+    </envs>
+    <method />
+  </configuration>
+</component>
